@@ -1,0 +1,6 @@
+com\tp3_server\rest\RESTfulDrive.class
+com\tp3_server\rest\RESTfulDropbox.class
+com\tp3_server\file_system\Component.class
+com\tp3_server\file_system\Composite.class
+com\tp3_server\file_system\Leaf.class
+com\tp3_server\rest\RESTfulServer.class
