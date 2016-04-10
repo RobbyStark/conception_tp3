@@ -1,0 +1,57 @@
+package com.tp3_server.rest;
+
+import com.tp3_server.file_system.*;
+
+import com.google.gson.Gson;
+
+import java.io.File;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Response;
+ 
+@Path("server")
+public class RESTfulServer {
+	
+	@GET
+	@Path("list")
+	@Produces("text/html")
+	/*
+	 * Method that lists the files and folders contained in a root path.
+	 * Returns the file system in JSON format.
+	 */
+	public Response list(@QueryParam("root") String root)
+	{
+		String json = "";
+		
+		try {
+			// The root of the file system.
+			Component fs = new Composite(root, null);
+			File f = new File(root);
+			
+			// Iterates over all files and folders contained.
+			File[] files = f.listFiles();
+			for (File file : files) {
+				if (file.isDirectory()) {
+					// Create a new composite.
+					Component composite = new Composite(file.getAbsolutePath(), null);
+					fs.addComponent(composite);
+				} else {
+					// Create a new leaf.
+					Component leaf = new Leaf(file.getAbsolutePath(), null);
+					fs.addComponent(leaf);
+				}
+			}
+			
+			// Convert object to JSON.
+			Gson gson = new Gson();
+			json = gson.toJson(fs);
+		} catch (java.lang.NullPointerException e) {
+			e.printStackTrace();
+		}
+		
+		return Response.status(200).entity(json).build();
+	}
+}

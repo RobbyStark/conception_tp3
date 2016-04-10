@@ -1,12 +1,11 @@
 package com.tp3_server.rest;
 
-import com.tp3_server.file_system.*;
-
 import com.dropbox.core.*;
 import com.dropbox.core.v1.DbxClientV1;
 import com.dropbox.core.v1.DbxEntry;
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
 import java.util.Locale;
 
 import javax.ws.rs.GET;
@@ -19,58 +18,99 @@ import javax.ws.rs.core.Response;
 public class RESTfulDropbox {
 	
 	private static final String TOKEN =
-			"PUT-YOUR-DROPBOX-TOKEN-HERE";
+			//"PUT-YOUR-DROPBOX-TOKEN-HERE";
+			"...";
 	
 	@GET
 	@Path("list")
 	@Produces("text/html")
 	/*
-	 * Method that lists the files and folders contained in Dropbox.
-	 * Returns the file system in JSON format.
+	 * Method that lists the files and folders contained in the path.
 	 */
-	public Response list(@QueryParam("root") String root)
+	public Response list(@QueryParam("path") String path)
 	{
-		String json = "";
-
-        DbxRequestConfig config = new DbxRequestConfig(
-            "JavaTutorial/1.0", Locale.getDefault().toString());
-        DbxClientV1 client = new DbxClientV1(config, TOKEN);
+		ArrayList<Node> nodes = new ArrayList<Node>();
+		
+        DbxClientV1 client = authentication();
         
         try {
-        	// The root of the file system.
-        	Component fs = new Composite(root, null);
-        	fillFileSystem(client, fs);
-        	
-        	// Convert object to JSON.
-			Gson gson = new Gson();
-			json = gson.toJson(fs);
+        	DbxEntry.WithChildren listing = client.getMetadataWithChildren(path);
+    		
+    		// Iterates over all files and folders contained.
+    		for (DbxEntry child : listing.children) {
+    			nodes.add(new Node(child.path, child.isFolder()));
+    		}
 		} catch (DbxException e) {
 			e.printStackTrace();
 		} catch (java.lang.NullPointerException e) {
 			e.printStackTrace();
 		}
         
+        // Convert object to JSON.
+		Gson gson = new Gson();
+		String json = gson.toJson(nodes);
 		return Response.status(200).entity(json).build();
 	}
 	
+	@GET
+	@Path("name")
+	@Produces("text/html")
 	/*
-	 * Method that recursively find files and directories.
+	 * Method that returns the name of the file or folder specified.
 	 */
-	private void fillFileSystem(DbxClientV1 client, Component c) throws DbxException {
-		DbxEntry.WithChildren listing = client.getMetadataWithChildren(c.getPath());
+	public Response name(@QueryParam("path") String path)
+	{
+		String name = "";
+        DbxClientV1 client = authentication();
+        DbxEntry file;
+		try {
+			file = client.getMetadata(path);
+			name = file.name;
+		} catch (DbxException e) {
+			e.printStackTrace();
+		}
+		return Response.status(200).entity(name).build();
+	}
+	
+	@GET
+	@Path("absolutePath")
+	@Produces("text/html")
+	/*
+	 * Method that returns the absolutePath of the file or folder specified.
+	 */
+	public Response absolutePath(@QueryParam("path") String path)
+	{
+		String name = "";
+        DbxClientV1 client = authentication();
+        DbxEntry file;
+		try {
+			file = client.getMetadata(path);
+			name = file.path;
+		} catch (DbxException e) {
+			e.printStackTrace();
+		}
+		return Response.status(200).entity(name).build();
+	}
+	
+	/*
+	 * Method to authenticate the user on Dropbox.
+	 */
+	private DbxClientV1 authentication() {
+		 DbxRequestConfig config = new DbxRequestConfig(
+				 "JavaTutorial/1.0", Locale.getDefault().toString());
+        return new DbxClientV1(config, TOKEN);
+	}
+	
+	/*
+	 * Class that defines either a file or directory.
+	 */
+	private class Node {
+		private String Path;
+		private boolean IsDirectory;
 		
-		// Iterates over all files and folders contained.
-		for (DbxEntry child : listing.children) {
-			if (child.isFolder()) {
-				// Create a new composite and call again on new composite.
-				Component composite = new Composite(child.path, null);
-				c.addComponent(composite);
-				fillFileSystem(client, composite);
-			} else {
-				// Create a new leaf.
-				Component leaf = new Leaf(child.path, null);
-				c.addComponent(leaf);
-			}
+		public Node(String path, boolean isDirectory) {
+			Path = path;
+			IsDirectory = isDirectory;
 		}
 	}
 }
