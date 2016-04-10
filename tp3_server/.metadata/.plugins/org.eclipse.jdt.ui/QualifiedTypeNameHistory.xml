@@ -23,7 +23,7 @@
 <fullyQualifiedTypeName name="com.google.api.services.drive.Drive.Builder"/>
 <fullyQualifiedTypeName name="com.google.api.services.drive.model.File"/>
 <fullyQualifiedTypeName name="com.google.api.services.drive.Drive.Files.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.google.api.services.drive.model.FileList"/>
 <fullyQualifiedTypeName name="com.google.api.client.googleapis.json.GoogleJsonResponseException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

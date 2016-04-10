@@ -1,10 +1,9 @@
 package com.tp3_server.rest;
 
-import com.tp3_server.file_system.*;
-
 import com.google.gson.Gson;
 
 import java.io.File;
+import java.util.ArrayList;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -19,47 +18,65 @@ public class RESTfulServer {
 	@Path("list")
 	@Produces("text/html")
 	/*
-	 * Method that lists the files and folders contained in a root path.
-	 * Returns the file system in JSON format.
+	 * Method that lists the files and folders contained in the path.
 	 */
-	public Response list(@QueryParam("root") String root)
+	public Response list(@QueryParam("path") String path)
 	{
-		String json = "";
+		ArrayList<Node> nodes = new ArrayList<Node>();
 		
 		try {
 			// The root of the file system.
-			Component fs = new Composite(root, null);
-			fillFileSystem(fs);
+			File f = new File(path);
 			
-			// Convert object to JSON.
-			Gson gson = new Gson();
-			json = gson.toJson(fs);
+			// Iterates over all files and folders contained.
+			File[] files = f.listFiles();
+			for (File file : files) {
+				nodes.add(new Node(file.getAbsolutePath(), file.isDirectory()));
+			}
 		} catch (java.lang.NullPointerException e) {
 			e.printStackTrace();
 		}
 		
+		// Convert object to JSON.
+		Gson gson = new Gson();
+		String json = gson.toJson(nodes);
 		return Response.status(200).entity(json).build();
 	}
 	
+	@GET
+	@Path("name")
+	@Produces("text/html")
 	/*
-	 * Method that recursively find files and directories.
+	 * Method that returns the name of the file or folder specified.
 	 */
-	private void fillFileSystem(Component c) {
-		File f = new File(c.getPath());
+	public Response name(@QueryParam("path") String path)
+	{
+		File f = new File(path);
+		return Response.status(200).entity(f.getName()).build();
+	}
+	
+	@GET
+	@Path("absolutePath")
+	@Produces("text/html")
+	/*
+	 * Method that returns the absolutePath of the file or folder specified.
+	 */
+	public Response absolutePath(@QueryParam("path") String path)
+	{
+		File f = new File(path);
+		return Response.status(200).entity(f.getAbsolutePath()).build();
+	}
+	
+	/*
+	 * Class that defines either a file or directory.
+	 */
+	private class Node {
+		private String Path;
+		private boolean IsDirectory;
 		
-		// Iterates over all files and folders contained.
-		File[] files = f.listFiles();
-		for (File file : files) {
-			if (file.isDirectory()) {
-				// Create a new composite and call again on new composite.
-				Component composite = new Composite(file.getAbsolutePath(), null);
-				c.addComponent(composite);
-				fillFileSystem(composite);
-			} else {
-				// Create a new leaf.
-				Component leaf = new Leaf(file.getAbsolutePath(), null);
-				c.addComponent(leaf);
-			}
+		public Node(String path, boolean isDirectory) {
+			Path = path;
+			IsDirectory = isDirectory;
 		}
 	}
 }
