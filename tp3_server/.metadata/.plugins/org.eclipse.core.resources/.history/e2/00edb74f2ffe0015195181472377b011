@@ -1,0 +1,12 @@
+package com.tp3_server.rest;
+
+/*
+ * A class that contains methods and sub-classes common to all services.
+ */
+public class Common {
+	
+	public class FileSystem {
+		
+	}
+
+}

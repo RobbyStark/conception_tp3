@@ -1,0 +1,40 @@
+package com.tp3_server.rest;
+
+import java.io.File;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Response;
+ 
+@Path("/")
+public class RESTfulServer {
+	@GET
+	@Path("server")
+	@Produces("text/html")
+	/*
+	 * Method that lists the files and folders contained in a root path.
+	 * Returns the file system in JSON format.
+	 */
+	public Response list(@QueryParam("root") String root)
+	{
+		File path = new File(root);
+		if (path.exists()) {
+			File[] files = path.listFiles();
+		} else {
+			
+		}
+		
+
+		    for (int i = 0; i < listOfFiles.length; i++) {
+		      if (listOfFiles[i].isFile()) {
+		        System.out.println("File " + listOfFiles[i].getName());
+		      } else if (listOfFiles[i].isDirectory()) {
+		        System.out.println("Directory " + listOfFiles[i].getName());
+		      }
+		    }
+		String output = "<h1>Hello World!<h1>" + prop1;
+		return Response.status(200).entity(output).build();
+	}
+}

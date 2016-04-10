@@ -1,0 +1,32 @@
+package com.tp3_server.rest;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Response;
+
+import com.google.api.client.http.HttpTransport;
+
+ 
+@Path("/drive")
+public class RESTfulDrive {
+	
+	// Objects for handling HTTP transport and JSON formatting of API calls
+	  private static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
+	  private static final JsonFactory JSON_FACTORY = new JacksonFactory();
+
+	  private static GoogleAuthorizationCodeFlow flow = null;
+
+	@GET
+	@Path("list")
+	@Produces("text/html")
+	/*
+	 * Method that lists the files and folders contained in Drive.
+	 * Returns the file system in JSON format.
+	 */
+	public Response list(@QueryParam("root") String root)
+	{
+		
+	}
+}

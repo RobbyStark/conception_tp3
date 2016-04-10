@@ -1,0 +1,880 @@
+2016-04-09 02:05:53,484 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\Bambell\Desktop\tp3-arch\tp3\pom.xml
+2016-04-09 02:05:54,598 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tp3.rest:tp3:0.0.1-SNAPSHOT @ C:\Users\Bambell\Desktop\tp3-arch\tp3\pom.xml.
+2016-04-09 02:05:55,828 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp3/src/main/java
+2016-04-09 02:05:55,828 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tp3/src/main/resources
+2016-04-09 02:05:55,829 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp3/src/test/java
+2016-04-09 02:05:57,692 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2016-04-09 02:05:58,795 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-09 02:05:58,834 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:05:58,843 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-09 02:05:58,871 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3\src\test\resources
+2016-04-09 02:11:33,862 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-09 02:11:33,876 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:11:33,878 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-09 02:11:33,896 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3\src\test\resources
+2016-04-09 02:18:40,742 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-09 02:18:40,763 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:18:40,766 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-09 02:18:40,773 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3\src\test\resources
+2016-04-09 02:20:31,709 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-09 02:20:31,719 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:20:31,721 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-09 02:20:31,730 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3\src\test\resources
+2016-04-09 02:24:06,877 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.4/maven-war-plugin-2.4.jar
+2016-04-09 02:24:07,033 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.4/maven-war-plugin-2.4.jar
+2016-04-09 02:24:07,707 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tp3.rest:tp3:0.0.1-SNAPSHOT @ C:\Users\Bambell\Desktop\tp3-arch\tp3\pom.xml.
+2016-04-09 02:24:08,628 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.pom
+2016-04-09 02:24:08,679 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.pom
+2016-04-09 02:24:08,715 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.pom
+2016-04-09 02:24:09,984 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/sun/jersey/jersey-project/1.9/jersey-project-1.9.pom
+2016-04-09 02:24:10,020 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.9/jersey-project-1.9.pom
+2016-04-09 02:24:10,066 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.9/jersey-project-1.9.pom
+2016-04-09 02:24:11,164 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2016-04-09 02:24:11,197 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2016-04-09 02:24:11,234 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2016-04-09 02:24:12,199 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/asm/asm/3.1/asm-3.1.pom
+2016-04-09 02:24:12,244 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/asm/asm/3.1/asm-3.1.pom
+2016-04-09 02:24:12,281 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/asm/asm/3.1/asm-3.1.pom
+2016-04-09 02:24:13,388 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/asm/asm-parent/3.1/asm-parent-3.1.pom
+2016-04-09 02:24:13,422 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/asm/asm-parent/3.1/asm-parent-3.1.pom
+2016-04-09 02:24:13,461 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/asm/asm-parent/3.1/asm-parent-3.1.pom
+2016-04-09 02:24:14,557 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom
+2016-04-09 02:24:14,599 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom
+2016-04-09 02:24:14,659 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom
+2016-04-09 02:24:15,797 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar
+2016-04-09 02:24:16,807 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/asm/asm/3.1/asm-3.1.jar
+2016-04-09 02:24:18,085 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar
+2016-04-09 02:24:18,147 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar
+2016-04-09 02:24:18,745 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar
+2016-04-09 02:24:18,775 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/asm/asm/3.1/asm-3.1.jar
+2016-04-09 02:24:18,808 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/asm/asm/3.1/asm-3.1.jar
+2016-04-09 02:24:18,839 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar
+2016-04-09 02:24:19,164 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar
+2016-04-09 02:24:19,459 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.4/maven-war-plugin-2.4.pom
+2016-04-09 02:24:19,494 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.4/maven-war-plugin-2.4.pom
+2016-04-09 02:24:19,729 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.7/plexus-io-2.0.7.pom
+2016-04-09 02:24:19,762 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.7/plexus-io-2.0.7.pom
+2016-04-09 02:24:19,797 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.2/plexus-components-1.2.pom
+2016-04-09 02:24:19,829 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.2/plexus-components-1.2.pom
+2016-04-09 02:24:19,871 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.pom
+2016-04-09 02:24:19,905 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.pom
+2016-04-09 02:24:19,943 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3/plexus-3.3.pom
+2016-04-09 02:24:19,978 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3/plexus-3.3.pom
+2016-04-09 02:24:20,018 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom
+2016-04-09 02:24:20,053 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom
+2016-04-09 02:24:20,091 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom
+2016-04-09 02:24:20,130 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom
+2016-04-09 02:24:20,174 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.4.1/plexus-archiver-2.4.1.pom
+2016-04-09 02:24:20,207 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.4.1/plexus-archiver-2.4.1.pom
+2016-04-09 02:24:20,243 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+2016-04-09 02:24:20,275 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+2016-04-09 02:24:20,314 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.pom
+2016-04-09 02:24:20,350 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.pom
+2016-04-09 02:24:20,387 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2016-04-09 02:24:20,426 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2016-04-09 02:24:20,473 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.pom
+2016-04-09 02:24:20,514 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.pom
+2016-04-09 02:24:20,555 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.pom
+2016-04-09 02:24:20,589 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.pom
+2016-04-09 02:24:20,632 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.2/xstream-parent-1.4.2.pom
+2016-04-09 02:24:20,666 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.2/xstream-parent-1.4.2.pom
+2016-04-09 02:24:20,703 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/3/codehaus-parent-3.pom
+2016-04-09 02:24:20,742 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/3/codehaus-parent-3.pom
+2016-04-09 02:24:20,786 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom
+2016-04-09 02:24:20,888 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom
+2016-04-09 02:24:21,055 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.7/plexus-io-2.0.7.jar
+2016-04-09 02:24:21,124 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.7/plexus-io-2.0.7.jar
+2016-04-09 02:24:21,156 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.jar
+2016-04-09 02:24:21,280 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.jar
+2016-04-09 02:24:21,310 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.4.1/plexus-archiver-2.4.1.jar
+2016-04-09 02:24:21,418 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.4.1/plexus-archiver-2.4.1.jar
+2016-04-09 02:24:21,450 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar
+2016-04-09 02:24:21,632 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar
+2016-04-09 02:24:21,660 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar
+2016-04-09 02:24:21,712 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar
+2016-04-09 02:24:21,744 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.jar
+2016-04-09 02:24:22,135 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.jar
+2016-04-09 02:24:22,163 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+2016-04-09 02:24:22,226 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+2016-04-09 02:24:22,258 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar
+2016-04-09 02:24:22,347 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar
+2016-04-09 02:24:23,599 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:24:23,601 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:24:23,609 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:24:23,612 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3\src\test\resources
+2016-04-09 02:24:23,616 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of tp3
+2016-04-09 02:24:23,617 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for tp3
+2016-04-09 02:24:23,647 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:24:24,817 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:24:24,817 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:24:24,818 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:24:24,840 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3\src\test\resources
+2016-04-09 02:24:39,915 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:24:39,919 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:24:39,925 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:24:39,931 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3\src\test\resources
+2016-04-09 02:26:02,603 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:26:02,608 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:26:02,615 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:26:02,737 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3\src\test\resources
+2016-04-09 02:26:32,867 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tp3.rest:tp3:0.0.1-SNAPSHOT @ C:\Users\Bambell\Desktop\tp3-arch\tp3_server\pom.xml.
+2016-04-09 02:26:33,275 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:26:33,291 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:26:33,302 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:26:33,302 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:26:34,503 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:26:34,504 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:26:34,540 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:26:34,567 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:26:59,648 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tp3_server.rest:tp3_server:0.0.1-SNAPSHOT @ C:\Users\Bambell\Desktop\tp3-arch\tp3_server\pom.xml.
+2016-04-09 02:27:00,753 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:27:00,760 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:27:00,768 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:27:00,771 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:27:00,772 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of tp3_server
+2016-04-09 02:27:00,798 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for tp3_server
+2016-04-09 02:27:00,802 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:27:19,646 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:27:19,647 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:27:19,648 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:27:19,649 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:29:04,244 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:29:04,246 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:29:04,259 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:29:04,259 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:32:12,244 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:32:12,247 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:32:12,270 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:32:12,277 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:32:27,654 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:32:27,654 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:32:27,666 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:32:27,688 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:32:48,666 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-04-09 02:32:49,146 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tp3_server.rest:tp3_server:0.0.1-SNAPSHOT @ C:\Users\Bambell\Desktop\tp3-arch\tp3_server\pom.xml.
+2016-04-09 02:32:50,026 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp3_server/src/main/java
+2016-04-09 02:32:50,031 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tp3_server/src/main/resources
+2016-04-09 02:32:50,049 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp3_server/src/test/java
+2016-04-09 02:32:50,552 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for tp3_server
+2016-04-09 02:32:50,563 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-04-09 02:32:50,824 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:32:50,842 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:32:50,843 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:32:50,851 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:32:50,852 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of tp3_server
+2016-04-09 02:32:50,852 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for tp3_server
+2016-04-09 02:32:50,855 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:33:50,515 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:33:50,518 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:33:50,519 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:33:50,519 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:34:03,794 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:34:03,794 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:34:03,796 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:34:03,796 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:34:47,448 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-09 02:35:10,678 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Bambell\Desktop\tp3-arch\tp3_server
+2016-04-09 02:35:10,681 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-04-09 02:35:10,796 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:35:10,806 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:35:10,807 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:35:10,817 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:46:02,708 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:46:02,719 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:46:02,722 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:46:02,723 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:47:37,028 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-09 02:47:50,737 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Bambell\Desktop\tp3-arch\tp3_server
+2016-04-09 02:47:50,737 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-04-09 02:54:23,171 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:54:23,181 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:54:23,184 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:54:23,184 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:54:34,427 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-09 02:55:04,926 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Bambell\Desktop\tp3-arch\tp3_server
+2016-04-09 02:55:04,927 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-04-09 02:56:27,097 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:56:27,102 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 02:56:27,104 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 02:56:27,104 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 02:56:34,892 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-09 02:57:05,182 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Bambell\Desktop\tp3-arch\tp3_server
+2016-04-09 02:57:05,182 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-04-09 03:01:10,969 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:01:10,970 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 03:01:10,980 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:01:10,980 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 03:01:22,394 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:01:22,396 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 03:01:22,401 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:01:22,406 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 03:01:41,204 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-09 03:01:46,769 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Bambell\Desktop\tp3-arch\tp3_server
+2016-04-09 03:01:46,777 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-04-09 03:02:06,900 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:02:06,910 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 03:02:06,921 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:02:06,930 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 03:02:13,369 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:02:13,370 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 03:02:13,371 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:02:13,383 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 03:03:52,685 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:03:52,693 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 03:03:52,702 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:03:52,711 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 03:40:43,813 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:40:43,815 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 03:40:43,831 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:40:43,849 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 03:43:02,258 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:43:02,281 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 03:43:02,289 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 03:43:02,295 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:07:37,796 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:07:37,797 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:07:37,799 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:07:37,805 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:15:57,850 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:15:57,851 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:15:57,857 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:15:57,862 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:19:18,484 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:19:18,485 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:19:18,487 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:19:18,489 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:39:34,387 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:39:34,389 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:39:34,400 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:39:34,407 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:40:15,706 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:40:15,706 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:40:15,707 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:40:15,711 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:44:46,141 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:44:46,148 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:44:46,153 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:44:46,155 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:45:47,725 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:45:47,726 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:45:47,728 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:45:47,732 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:47:01,624 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:47:01,628 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:47:01,632 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:47:01,675 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:47:15,484 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:47:15,485 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:47:15,486 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:47:15,495 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:47:23,193 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:47:23,207 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:47:23,218 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:47:23,225 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:48:23,504 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:48:23,504 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:48:23,506 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:48:23,510 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:48:37,294 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:48:37,300 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:48:37,303 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:48:37,306 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:49:10,516 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:49:10,517 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:49:10,519 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:49:10,550 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 04:58:54,444 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:58:54,446 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 04:58:54,449 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 04:58:54,452 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:14:48,928 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:14:48,930 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:14:48,932 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:14:48,935 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:14:56,956 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:14:56,960 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:14:56,965 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:14:56,969 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:15:08,981 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:15:08,982 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:15:08,983 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:15:08,987 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:17:10,013 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:17:10,017 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:17:10,020 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:17:10,023 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:22:34,681 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:22:34,682 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:22:34,682 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:22:34,691 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:32:57,176 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:32:57,180 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:32:57,185 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:32:57,191 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:36:06,665 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:36:06,666 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:36:06,669 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:36:06,676 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:36:52,722 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:36:52,727 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:36:52,734 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:36:52,738 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:38:16,586 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:38:16,587 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:38:16,588 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:38:16,591 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:47:15,745 [Worker-77] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tp3_server.rest:tp3_server:0.0.1-SNAPSHOT @ C:\Users\Bambell\Desktop\tp3-arch\tp3_server\pom.xml.
+2016-04-09 05:47:17,193 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom
+2016-04-09 05:47:17,414 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom
+2016-04-09 05:47:17,440 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom
+2016-04-09 05:47:18,722 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom
+2016-04-09 05:47:18,740 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom
+2016-04-09 05:47:18,763 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom
+2016-04-09 05:47:19,872 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2016-04-09 05:47:19,888 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2016-04-09 05:47:19,909 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2016-04-09 05:47:21,229 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar
+2016-04-09 05:47:21,263 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar
+2016-04-09 05:47:21,405 [Worker-77] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar
+2016-04-09 05:47:23,475 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:47:23,476 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:47:23,482 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:47:23,484 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:47:23,487 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of tp3_server
+2016-04-09 05:47:23,488 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for tp3_server
+2016-04-09 05:47:23,527 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:47:24,855 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:47:24,855 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:47:24,877 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:47:24,905 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:48:18,001 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-09 05:48:24,455 [Worker-80] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Bambell\Desktop\tp3-arch\tp3_server
+2016-04-09 05:48:24,467 [Worker-80] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-04-09 05:52:38,792 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:52:38,793 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:52:38,821 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:52:38,831 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:52:39,995 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:52:39,995 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:52:39,996 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:52:39,996 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:52:41,075 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:52:41,081 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:52:41,085 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:52:41,085 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 05:53:30,817 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:53:30,818 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 05:53:30,819 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 05:53:30,819 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:12:20,015 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:12:20,017 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:12:20,029 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:12:20,030 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:15:27,037 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:15:27,037 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:15:27,039 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:15:27,039 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:16:32,898 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:16:32,905 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:16:32,912 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:16:32,913 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:17:21,070 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:17:21,070 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:17:21,071 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:17:21,071 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:17:58,912 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:17:58,929 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:17:58,934 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:17:58,934 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:18:16,590 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:18:16,590 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:18:16,591 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:18:16,592 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:18:32,968 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:18:32,975 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:18:32,979 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:18:32,979 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:20:05,520 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:20:05,521 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:20:05,523 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:20:05,523 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:21:38,342 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:21:38,347 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:21:38,353 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:21:38,354 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:21:47,882 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:21:47,883 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:21:47,885 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:21:47,885 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:22:16,434 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:22:16,440 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:22:16,445 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:22:16,446 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:24:22,477 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:24:22,478 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:24:22,479 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:24:22,479 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:25:38,095 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:25:38,099 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:25:38,102 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:25:38,102 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:26:57,536 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:26:57,537 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:26:57,537 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:26:57,537 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:31:53,545 [Worker-93] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tp3_server.rest:tp3_server:0.0.1-SNAPSHOT @ C:\Users\Bambell\Desktop\tp3-arch\tp3_server\pom.xml.
+2016-04-09 06:31:54,933 [Worker-93] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/dropbox/core/dropbox/2.0.1/dropbox-2.0.1.pom
+2016-04-09 06:31:55,118 [Worker-93] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dropbox/core/dropbox/2.0.1/dropbox-2.0.1.pom
+2016-04-09 06:31:55,126 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.dropbox.core:dropbox:jar:2.0.1 is missing, no dependency information available
+2016-04-09 06:31:55,618 [Worker-93] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/dropbox/core/dropbox/2.0.1/dropbox-2.0.1.jar
+2016-04-09 06:31:55,766 [Worker-93] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dropbox/core/dropbox/2.0.1/dropbox-2.0.1.jar
+2016-04-09 06:31:55,812 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.dropbox.core:dropbox:jar:2.0.1 is missing, no dependency information available
+2016-04-09 06:31:56,759 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:31:56,789 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:31:56,804 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:31:56,809 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:31:56,809 [Worker-93] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of tp3_server
+2016-04-09 06:31:56,820 [Worker-93] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for tp3_server
+2016-04-09 06:31:56,825 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:32:36,618 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-09 06:32:42,440 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Bambell\Desktop\tp3-arch\tp3_server
+2016-04-09 06:32:42,440 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-04-09 06:34:28,245 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/dropbox/core/dropbox-core-sdk/2.0.1/dropbox-core-sdk-2.0.1.pom
+2016-04-09 06:34:28,399 [Worker-95] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tp3_server.rest:tp3_server:0.0.1-SNAPSHOT @ C:\Users\Bambell\Desktop\tp3-arch\tp3_server\pom.xml.
+2016-04-09 06:34:28,474 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dropbox/core/dropbox-core-sdk/2.0.1/dropbox-core-sdk-2.0.1.pom
+2016-04-09 06:34:28,517 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dropbox/core/dropbox-core-sdk/2.0.1/dropbox-core-sdk-2.0.1.pom
+2016-04-09 06:34:29,835 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.pom
+2016-04-09 06:34:29,859 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.pom
+2016-04-09 06:34:29,886 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.pom
+2016-04-09 06:34:31,160 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/jackson/jackson-parent/2.7/jackson-parent-2.7.pom
+2016-04-09 06:34:31,181 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.7/jackson-parent-2.7.pom
+2016-04-09 06:34:31,209 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.7/jackson-parent-2.7.pom
+2016-04-09 06:34:32,519 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/oss-parent/25/oss-parent-25.pom
+2016-04-09 06:34:32,546 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/25/oss-parent-25.pom
+2016-04-09 06:34:32,577 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/25/oss-parent-25.pom
+2016-04-09 06:34:33,687 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.pom
+2016-04-09 06:34:33,714 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.pom
+2016-04-09 06:34:33,744 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.pom
+2016-04-09 06:34:34,965 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/jackson/core/jackson-databind/2.7.1-1/jackson-databind-2.7.1-1.pom
+2016-04-09 06:34:35,016 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.1-1/jackson-databind-2.7.1-1.pom
+2016-04-09 06:34:35,094 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.1-1/jackson-databind-2.7.1-1.pom
+2016-04-09 06:34:36,154 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.pom
+2016-04-09 06:34:36,177 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.pom
+2016-04-09 06:34:36,207 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.pom
+2016-04-09 06:34:37,506 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/dropbox/core/dropbox-core-sdk/2.0.1/dropbox-core-sdk-2.0.1.jar
+2016-04-09 06:34:38,944 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar
+2016-04-09 06:34:39,472 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-09 06:34:40,026 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.jar
+2016-04-09 06:34:41,409 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/jackson/core/jackson-databind/2.7.1-1/jackson-databind-2.7.1-1.jar
+2016-04-09 06:34:41,468 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dropbox/core/dropbox-core-sdk/2.0.1/dropbox-core-sdk-2.0.1.jar
+2016-04-09 06:34:42,473 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dropbox/core/dropbox-core-sdk/2.0.1/dropbox-core-sdk-2.0.1.jar
+2016-04-09 06:34:42,497 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar
+2016-04-09 06:34:42,524 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar
+2016-04-09 06:34:42,549 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.jar
+2016-04-09 06:34:42,732 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.jar
+2016-04-09 06:34:42,767 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.1-1/jackson-databind-2.7.1-1.jar
+2016-04-09 06:34:44,072 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.1-1/jackson-databind-2.7.1-1.jar
+2016-04-09 06:34:45,226 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:34:45,230 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:34:45,235 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:34:45,235 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:34:45,238 [Worker-95] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of tp3_server
+2016-04-09 06:34:45,238 [Worker-95] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for tp3_server
+2016-04-09 06:34:45,241 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:34:47,232 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:34:47,239 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:34:47,245 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:34:47,252 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:34:48,490 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Bambell\Desktop\tp3-arch\tp3_server
+2016-04-09 06:34:48,494 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-04-09 06:35:45,699 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:35:45,706 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:35:45,715 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:35:45,720 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:35:47,789 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:35:47,789 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:35:47,790 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:35:47,793 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:41:13,096 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:41:13,099 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:41:13,103 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:41:13,105 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 06:56:31,701 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:56:31,702 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 06:56:31,702 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 06:56:31,705 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 07:02:53,405 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 07:02:53,409 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 07:02:53,413 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 07:02:53,415 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 07:06:06,199 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 07:06:06,200 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 07:06:06,201 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 07:06:06,205 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 07:06:53,952 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 07:06:53,955 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 07:06:53,958 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 07:06:53,961 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 07:08:00,674 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 07:08:00,675 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 07:08:00,676 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 07:08:00,693 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 15:50:09,857 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 15:50:09,858 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 15:50:09,868 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 15:50:09,871 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 15:50:10,889 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 15:50:10,889 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 15:50:10,890 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 15:50:10,893 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 15:50:12,416 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 15:50:12,424 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 15:50:12,430 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 15:50:12,433 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 15:50:48,318 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 15:50:48,318 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 15:50:48,319 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 15:50:48,329 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 15:55:12,866 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 15:55:12,869 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 15:55:12,872 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 15:55:12,875 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 16:00:46,942 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:00:46,943 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 16:00:46,946 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:00:46,950 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 16:02:54,042 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:02:54,055 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 16:02:54,059 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:02:54,063 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 16:03:48,904 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:03:48,904 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 16:03:48,904 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:03:48,907 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 16:08:08,714 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:08:08,724 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 16:08:08,729 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:08:08,734 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 16:13:32,744 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:13:32,745 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 16:13:32,746 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:13:32,755 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 16:14:45,005 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:14:45,008 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 16:14:45,014 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 16:14:45,020 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 17:10:15,560 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 17:10:15,562 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 17:10:15,563 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 17:10:15,567 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 17:12:04,592 [Worker-147] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tp3_server.rest:tp3_server:0.0.1-SNAPSHOT @ C:\Users\Bambell\Desktop\tp3-arch\tp3_server\pom.xml.
+2016-04-09 17:12:05,935 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/apis/google-api-services-drive/v3-rev18-1.19.1/google-api-services-drive-v3-rev18-1.19.1.pom
+2016-04-09 17:12:06,093 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/apis/google-api-services-drive/v3-rev18-1.19.1/google-api-services-drive-v3-rev18-1.19.1.pom
+2016-04-09 17:12:06,124 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/apis/google-api-services-drive/v3-rev18-1.19.1/google-api-services-drive-v3-rev18-1.19.1.pom
+2016-04-09 17:12:07,141 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/api-client/google-api-client/1.19.1/google-api-client-1.19.1.pom
+2016-04-09 17:12:07,160 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client/1.19.1/google-api-client-1.19.1.pom
+2016-04-09 17:12:07,180 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client/1.19.1/google-api-client-1.19.1.pom
+2016-04-09 17:12:07,891 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/api-client/google-api-client-parent/1.19.1/google-api-client-parent-1.19.1.pom
+2016-04-09 17:12:07,928 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client-parent/1.19.1/google-api-client-parent-1.19.1.pom
+2016-04-09 17:12:07,957 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client-parent/1.19.1/google-api-client-parent-1.19.1.pom
+2016-04-09 17:12:08,691 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/oauth-client/google-oauth-client/1.19.0/google-oauth-client-1.19.0.pom
+2016-04-09 17:12:08,707 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client/1.19.0/google-oauth-client-1.19.0.pom
+2016-04-09 17:12:08,742 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client/1.19.0/google-oauth-client-1.19.0.pom
+2016-04-09 17:12:10,914 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/oauth-client/google-oauth-client-parent/1.19.0/google-oauth-client-parent-1.19.0.pom
+2016-04-09 17:12:10,931 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client-parent/1.19.0/google-oauth-client-parent-1.19.0.pom
+2016-04-09 17:12:10,964 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client-parent/1.19.0/google-oauth-client-parent-1.19.0.pom
+2016-04-09 17:12:12,309 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/http-client/google-http-client/1.19.0/google-http-client-1.19.0.pom
+2016-04-09 17:12:12,326 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.19.0/google-http-client-1.19.0.pom
+2016-04-09 17:12:12,348 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.19.0/google-http-client-1.19.0.pom
+2016-04-09 17:12:13,838 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/http-client/google-http-client-parent/1.19.0/google-http-client-parent-1.19.0.pom
+2016-04-09 17:12:13,861 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-parent/1.19.0/google-http-client-parent-1.19.0.pom
+2016-04-09 17:12:13,882 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-parent/1.19.0/google-http-client-parent-1.19.0.pom
+2016-04-09 17:12:14,627 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-09 17:12:15,336 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+2016-04-09 17:12:15,364 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+2016-04-09 17:12:15,391 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+2016-04-09 17:12:16,720 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.pom
+2016-04-09 17:12:16,743 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.pom
+2016-04-09 17:12:16,769 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.pom
+2016-04-09 17:12:17,479 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/org/apache/httpcomponents/httpcomponents-client/4.0.1/httpcomponents-client-4.0.1.pom
+2016-04-09 17:12:17,499 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.0.1/httpcomponents-client-4.0.1.pom
+2016-04-09 17:12:17,528 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.0.1/httpcomponents-client-4.0.1.pom
+2016-04-09 17:12:18,908 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/org/apache/httpcomponents/project/4.0/project-4.0.pom
+2016-04-09 17:12:18,928 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom
+2016-04-09 17:12:18,953 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom
+2016-04-09 17:12:20,315 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+2016-04-09 17:12:20,333 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+2016-04-09 17:12:20,355 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+2016-04-09 17:12:21,702 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
+2016-04-09 17:12:21,723 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
+2016-04-09 17:12:21,749 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
+2016-04-09 17:12:23,527 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+2016-04-09 17:12:23,543 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+2016-04-09 17:12:23,578 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+2016-04-09 17:12:24,941 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+2016-04-09 17:12:24,975 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+2016-04-09 17:12:25,007 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+2016-04-09 17:12:26,687 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom
+2016-04-09 17:12:26,710 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom
+2016-04-09 17:12:26,752 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom
+2016-04-09 17:12:28,289 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/http-client/google-http-client-jackson2/1.19.0/google-http-client-jackson2-1.19.0.pom
+2016-04-09 17:12:28,332 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.19.0/google-http-client-jackson2-1.19.0.pom
+2016-04-09 17:12:28,359 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.19.0/google-http-client-jackson2-1.19.0.pom
+2016-04-09 17:12:30,010 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.pom
+2016-04-09 17:12:30,027 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.pom
+2016-04-09 17:12:30,051 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.pom
+2016-04-09 17:12:32,130 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/fasterxml/oss-parent/4/oss-parent-4.pom
+2016-04-09 17:12:32,152 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/4/oss-parent-4.pom
+2016-04-09 17:12:32,181 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/4/oss-parent-4.pom
+2016-04-09 17:12:34,538 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/guava/guava-jdk5/13.0/guava-jdk5-13.0.pom
+2016-04-09 17:12:34,558 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-jdk5/13.0/guava-jdk5-13.0.pom
+2016-04-09 17:12:34,588 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-jdk5/13.0/guava-jdk5-13.0.pom
+2016-04-09 17:12:35,926 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/guava/guava-parent-jdk5/13.0/guava-parent-jdk5-13.0.pom
+2016-04-09 17:12:35,968 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent-jdk5/13.0/guava-parent-jdk5-13.0.pom
+2016-04-09 17:12:35,997 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent-jdk5/13.0/guava-parent-jdk5-13.0.pom
+2016-04-09 17:12:38,004 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/apis/google-api-services-drive/v3-rev18-1.19.1/google-api-services-drive-v3-rev18-1.19.1.jar
+2016-04-09 17:12:39,330 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/api-client/google-api-client/1.19.1/google-api-client-1.19.1.jar
+2016-04-09 17:12:39,854 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/oauth-client/google-oauth-client/1.19.0/google-oauth-client-1.19.0.jar
+2016-04-09 17:12:41,251 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/http-client/google-http-client/1.19.0/google-http-client-1.19.0.jar
+2016-04-09 17:12:42,783 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+2016-04-09 17:12:43,306 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+2016-04-09 17:12:44,659 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+2016-04-09 17:12:46,129 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/commons-codec/commons-codec/1.3/commons-codec-1.3.jar
+2016-04-09 17:12:47,286 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+2016-04-09 17:12:48,578 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/http-client/google-http-client-jackson2/1.19.0/google-http-client-jackson2-1.19.0.jar
+2016-04-09 17:12:49,749 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/2/com/google/guava/guava-jdk5/13.0/guava-jdk5-13.0.jar
+2016-04-09 17:12:49,836 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/apis/google-api-services-drive/v3-rev18-1.19.1/google-api-services-drive-v3-rev18-1.19.1.jar
+2016-04-09 17:12:49,875 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/apis/google-api-services-drive/v3-rev18-1.19.1/google-api-services-drive-v3-rev18-1.19.1.jar
+2016-04-09 17:12:49,888 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client/1.19.1/google-api-client-1.19.1.jar
+2016-04-09 17:12:49,949 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/api-client/google-api-client/1.19.1/google-api-client-1.19.1.jar
+2016-04-09 17:12:49,962 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client/1.19.0/google-oauth-client-1.19.0.jar
+2016-04-09 17:12:50,001 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/oauth-client/google-oauth-client/1.19.0/google-oauth-client-1.19.0.jar
+2016-04-09 17:12:50,013 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.19.0/google-http-client-1.19.0.jar
+2016-04-09 17:12:50,231 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.19.0/google-http-client-1.19.0.jar
+2016-04-09 17:12:50,263 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+2016-04-09 17:12:50,475 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+2016-04-09 17:12:50,489 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+2016-04-09 17:12:50,621 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+2016-04-09 17:12:50,633 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+2016-04-09 17:12:50,669 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+2016-04-09 17:12:50,681 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.jar
+2016-04-09 17:12:50,708 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.jar
+2016-04-09 17:12:50,719 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+2016-04-09 17:12:50,857 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+2016-04-09 17:12:50,868 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.19.0/google-http-client-jackson2-1.19.0.jar
+2016-04-09 17:12:50,901 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.19.0/google-http-client-jackson2-1.19.0.jar
+2016-04-09 17:12:50,914 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-jdk5/13.0/guava-jdk5-13.0.jar
+2016-04-09 17:12:52,250 [Worker-147] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-jdk5/13.0/guava-jdk5-13.0.jar
+2016-04-09 17:12:54,517 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 17:12:54,522 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 17:12:54,527 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 17:12:54,530 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 17:12:54,531 [Worker-147] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of tp3_server
+2016-04-09 17:12:54,534 [Worker-147] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for tp3_server
+2016-04-09 17:12:54,539 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 17:12:55,924 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 17:12:55,925 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 17:12:55,930 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 17:12:55,931 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 17:12:57,303 [Worker-148] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Bambell\Desktop\tp3-arch\tp3_server
+2016-04-09 17:12:57,303 [Worker-148] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-04-09 17:16:14,792 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 17:16:14,797 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 17:16:14,800 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 17:16:14,801 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 18:15:20,171 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:15:20,172 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 18:15:20,174 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:15:20,174 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 18:16:30,909 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:16:30,922 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 18:16:30,928 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:16:30,929 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 18:18:19,885 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:18:19,886 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 18:18:19,888 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:18:19,888 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 18:30:45,532 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:30:45,536 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 18:30:45,542 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:30:45,542 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 18:33:57,357 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:33:57,357 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 18:33:57,358 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:33:57,358 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 18:57:37,142 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:57:37,143 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 18:57:37,147 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:57:37,147 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 18:59:23,030 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:59:23,030 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 18:59:23,032 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 18:59:23,033 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 19:00:14,122 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 19:00:14,129 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 19:00:14,149 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 19:00:14,149 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 19:01:42,590 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 19:01:42,591 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 19:01:42,592 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 19:01:42,592 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 19:16:38,737 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 19:16:38,745 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 19:16:38,750 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 19:16:38,750 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 19:29:32,787 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 19:29:32,788 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 19:29:32,789 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 19:29:32,789 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 19:45:13,732 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 19:45:13,738 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 19:45:13,742 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 19:45:13,743 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 20:12:58,192 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 20:12:58,193 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 20:12:58,198 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 20:12:58,199 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 20:13:46,632 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 20:13:46,642 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 20:13:46,647 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 20:13:46,647 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:09:54,339 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:09:54,340 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:09:54,341 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:09:54,341 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:12:41,984 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:12:41,993 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:12:41,998 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:12:41,998 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:17:00,969 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:17:00,970 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:17:00,971 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:17:00,971 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:17:34,868 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:17:34,880 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:17:34,888 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:17:34,888 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:19:14,077 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:19:14,078 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:19:14,079 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:19:14,079 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:20:48,139 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:20:48,142 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:20:48,147 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:20:48,147 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:29:11,139 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:29:11,140 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:29:11,142 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:29:11,142 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:29:15,746 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:29:15,749 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:29:15,752 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:29:15,752 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:30:47,448 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:30:47,448 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:30:47,449 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:30:47,449 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:36:41,689 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:36:41,693 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:36:41,698 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:36:41,698 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:36:42,842 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:36:42,842 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:36:42,843 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:36:42,843 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:36:48,478 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:36:48,483 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:36:48,486 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:36:48,486 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:38:04,577 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:38:04,578 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:38:04,578 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:38:04,579 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:38:44,122 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:38:44,123 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:38:44,128 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:38:44,128 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:48:23,215 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:48:23,216 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:48:23,217 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:48:23,218 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:49:58,199 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:49:58,205 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:49:58,215 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:49:58,215 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:52:28,622 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:52:28,623 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:52:28,624 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:52:28,624 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:53:00,783 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:53:00,788 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:53:00,793 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:53:00,794 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:54:41,180 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:54:41,181 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:54:41,182 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:54:41,182 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:55:14,729 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:55:14,733 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:55:14,738 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:55:14,738 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 21:56:02,122 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:56:02,123 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 21:56:02,124 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 21:56:02,124 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:33:48,455 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:33:48,456 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:33:48,465 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:33:48,465 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:36:13,753 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:36:13,754 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:36:13,755 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:36:13,755 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:44:04,401 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:44:04,432 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:44:04,438 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:44:04,439 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:49:28,513 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:49:28,513 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:49:28,514 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:49:28,514 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:49:36,297 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:49:36,303 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:49:36,307 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:49:36,307 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:49:44,128 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:49:44,129 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:49:44,130 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:49:44,130 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:52:19,484 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:52:19,496 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:52:19,499 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:52:19,500 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:52:29,881 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:52:29,884 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:52:29,885 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:52:29,886 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:53:18,963 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tp3_server.rest:tp3_server:0.0.1-SNAPSHOT @ C:\Users\Bambell\Desktop\tp3-arch\tp3_server\pom.xml.
+2016-04-09 22:53:20,211 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:53:20,212 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:53:20,213 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:53:20,214 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:53:20,214 [Worker-8] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of tp3_server
+2016-04-09 22:53:20,215 [Worker-8] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for tp3_server
+2016-04-09 22:53:20,228 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:53:21,430 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:53:21,431 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:53:21,432 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:53:21,432 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:54:02,105 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:54:02,117 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:54:02,122 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:54:02,123 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:56:28,253 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:56:28,260 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:56:28,262 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:56:28,262 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources
+2016-04-09 22:57:20,320 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:57:20,328 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-09 22:57:20,331 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-09 22:57:20,332 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Bambell\Desktop\tp3-arch\tp3_server\src\test\resources

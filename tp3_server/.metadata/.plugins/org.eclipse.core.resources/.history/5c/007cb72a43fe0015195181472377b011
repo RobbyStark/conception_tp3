@@ -1,0 +1,99 @@
+package com.tp3_server.rest;
+
+import com.dropbox.core.*;
+import com.dropbox.core.v1.DbxClientV1;
+import com.dropbox.core.v1.DbxEntry;
+
+import java.util.Locale;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Response;
+ 
+@Path("/dropbox")
+public class RESTfulDropbox {
+	@GET
+	@Path("list")
+	@Produces("text/html")
+	/*
+	 * Method that lists the files and folders contained in the Dropbox.
+	 * Returns the file system in JSON format.
+	 */
+	public Response list(@QueryParam("root") String root)
+	{
+		String output = "";
+		String token = "-VeJgcHrwzAAAAAAAAAV9a5_IckBhEztWbaGuX1e_9cOhCsJtUQVqUzqLqT_oIQc";
+
+        DbxRequestConfig config = new DbxRequestConfig(
+            "JavaTutorial/1.0", Locale.getDefault().toString());
+        DbxClientV1 client = new DbxClientV1(config, token);
+        
+        try {
+        	//output = "<h1>Hello World!<h1>" + client.getAccountInfo().displayName;
+        	
+        	DbxEntry.WithChildren listing = client.getMetadataWithChildren("/");
+            //System.out.println("Files in the root path:");
+            for (DbxEntry child : listing.children) {
+            	output += child.name + ": " + child.toString();
+            	DbxEntry.WithChildren listing2 = client.getMetadataWithChildren("/");
+            	for (DbxEntry child2 : listing2.children) {
+            		output += child2.name + ": " + child.toString();
+            	}
+            }
+		} catch (DbxException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        
+        
+        
+		return Response.status(200).entity(output).build();
+        
+		//HTTPWrapper httpWrapper = new HTTPWrapper();
+		//httpWrapper.get(request)
+		//String output = "<h1>Hello World!<h1>" + root;
+		//return Response.status(200).entity(output).build();
+		/*String json;
+		try {
+			File f = new File(root);
+			// The root of the file system.
+			Component fs = new Composite(root);
+			fillFileSystem(fs);
+			
+			Gson gson = new Gson();
+			json = gson.toJson(fs);
+				
+				
+		} catch (java.lang.NullPointerException e) {
+			String output = "<h1>BAD ROOT<h1>" + root;
+			return Response.status(200).entity(output).build();
+		}
+		
+		String output = "<h1>Hello World!<h1>" + json;
+		return Response.status(200).entity(output).build();*/
+	}
+	
+	/*
+	 * Method that recursively find files and directories contained 
+	 */
+	//private void fillFileSystem(Component c) {
+		/*File f = new File(c.getPath());
+		
+		// Iterates over all files and folders contained.
+		File[] files = f.listFiles();
+		for (File file : files) {
+			if (file.isDirectory()) {
+				// Create a new composite and call again on new composite.
+				Component composite = new Composite(file.getAbsolutePath());
+				c.addComponent(composite);
+				fillFileSystem(composite);
+			} else {
+				// Create a new leaf.
+				Component leaf = new Leaf(file.getAbsolutePath());
+				c.addComponent(leaf);
+			}
+		}*/
+	//}
+}

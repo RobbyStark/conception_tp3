@@ -1,0 +1,26 @@
+package com.tp3_server.file_system;
+
+import java.util.ArrayList;
+
+/*
+ * Class that represents a composite (directory) object, containing other
+ * components.
+ */
+public class Composite extends Component {
+	// Array that contains other components contained.
+	private ArrayList<Component> components_ = new ArrayList<Component>();
+	
+	/*
+	 * Class constructor.
+	 */
+	public Composite(String path) {
+		path_ = path;
+	}
+	
+	/*
+	 * Adds a new component to the array of components.
+	 */
+	public void addComponent(Component c) {
+		this.components_.add(c);
+	}
+}

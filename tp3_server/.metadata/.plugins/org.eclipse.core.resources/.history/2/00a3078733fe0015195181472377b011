@@ -1,0 +1,31 @@
+package com.tp3_server.file_system;
+
+/*
+ * Class that acts as an interface for the Composite and Lead, represents a
+ * tree structure.
+ */
+public abstract class Component {
+	// Name of the component.
+	String name_;
+		
+	/*
+	 * Returns the name of the component.
+	 */
+	public String getName() {
+		return name_;
+	}
+	
+	/*
+	 * Adds a new composite (directory) to the array of components.
+	 */
+	public void addComposite(String name) {
+		throw new UnsupportedOperationException();
+	}
+	
+	/*
+	 * Adds a new leaf (file) to the array of components.
+	 */
+	public void addLeaf(String name) {
+		throw new UnsupportedOperationException();
+	}
+}

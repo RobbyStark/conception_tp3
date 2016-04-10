@@ -1,0 +1,16 @@
+package com.tp3_server.file_system;
+
+import java.io.File;
+
+/**
+ * Class that represents a leaf object FileLeaf.
+ */
+public class Leaf extends Component {
+	/**
+	 * Class constructor.
+	 * @param file The file to be represented by the FileLeaf object.
+	 */
+	public Leaf(File file) {
+		file_ = file;
+	}
+}

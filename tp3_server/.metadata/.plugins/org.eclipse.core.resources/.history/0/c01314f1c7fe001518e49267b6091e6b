@@ -1,0 +1,76 @@
+package com.tp3_server.rest;
+
+import com.tp3_server.file_system.*;
+
+import com.dropbox.core.*;
+import com.dropbox.core.v1.DbxClientV1;
+import com.dropbox.core.v1.DbxEntry;
+import com.google.gson.Gson;
+
+import java.util.Locale;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Response;
+ 
+@Path("/dropbox")
+public class RESTfulDropbox {
+	
+	private static final String TOKEN =
+			"DROPBOX-TOKEN-HERE";
+	
+	@GET
+	@Path("list")
+	@Produces("text/html")
+	/*
+	 * Method that lists the files and folders contained in Dropbox.
+	 * Returns the file system in JSON format.
+	 */
+	public Response list(@QueryParam("root") String root)
+	{
+		String json = "";
+
+        DbxRequestConfig config = new DbxRequestConfig(
+            "JavaTutorial/1.0", Locale.getDefault().toString());
+        DbxClientV1 client = new DbxClientV1(config, TOKEN);
+        
+        try {
+        	// The root of the file system.
+        	Component fs = new Composite(root, null);
+        	fillFileSystem(client, fs);
+        	
+        	// Convert object to JSON.
+			Gson gson = new Gson();
+			json = gson.toJson(fs);
+		} catch (DbxException e) {
+			e.printStackTrace();
+		} catch (java.lang.NullPointerException e) {
+			e.printStackTrace();
+		}
+        
+		return Response.status(200).entity(json).build();
+	}
+	
+	/*
+	 * Method that recursively find files and directories.
+	 */
+	private void fillFileSystem(DbxClientV1 client, Component c) throws DbxException {
+		DbxEntry.WithChildren listing = client.getMetadataWithChildren(c.getPath());
+		
+		// Iterates over all files and folders contained.
+		for (DbxEntry child : listing.children) {
+			if (child.isFolder()) {
+				// Create a new composite and call again on new composite.
+				Component composite = new Composite(child.path, null);
+				c.addComponent(composite);
+				fillFileSystem(client, composite);
+			} else {
+				// Create a new leaf.
+				Component leaf = new Leaf(child.path, null);
+				c.addComponent(leaf);
+			}
+		}
+	}
+}

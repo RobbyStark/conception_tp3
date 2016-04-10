@@ -1,0 +1,94 @@
+package com.tp3_server.rest;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Response;
+
+import com.google.api.client.auth.oauth2.TokenResponse;
+import com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeFlow;
+import com.google.api.client.googleapis.auth.oauth2.GoogleClientSecrets;
+import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
+import com.google.api.client.http.HttpTransport;
+import com.google.api.client.http.javanet.NetHttpTransport;
+import com.google.api.client.json.JsonFactory;
+import com.google.api.client.json.jackson2.JacksonFactory;
+import com.google.api.services.drive.Drive;
+import com.google.api.services.drive.Drive.Files;
+import com.google.api.services.drive.model.File;
+import com.google.api.services.drive.model.FileList;
+ 
+@Path("/drive")
+public class RESTfulDrive {
+	
+	// Objects for handling HTTP transport and JSON formatting of API calls
+	private static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
+	private static final JsonFactory JSON_FACTORY = new JacksonFactory();
+	
+	private static final String CLIENT_ID =
+			"431078147606-skhq0mmlnvrkrfc594tggmajsaunk7n1.apps.googleusercontent.com";
+	private static final String CLIENT_SECRET = "U21saTQAujsuXZG3RhP5C_y2";
+	private static final String REFRESH_TOKEN =
+			"1/R3gtNy3cwY87UTnEopannGtVUA1F9LVT2gME12_8P34MEudVrK5jSpoR30zcRFq6";
+
+	private static GoogleAuthorizationCodeFlow flow = null;
+
+	@GET
+	@Path("list")
+	@Produces("text/html")
+	/*
+	 * Method that lists the files and folders contained in Drive.
+	 * Returns the file system in JSON format.
+	 */
+	public Response list(@QueryParam("root") String root)
+	{
+
+		
+		// Request a new Access token using the refresh token.
+		GoogleCredential credential = new GoogleCredential.Builder()
+				.setTransport(HTTP_TRANSPORT)
+				.setJsonFactory(JSON_FACTORY)
+				.setClientSecrets(CLIENT_ID, CLIENT_SECRET).build()
+				.setFromTokenResponse(new TokenResponse().setRefreshToken(REFRESH_TOKEN));
+		
+		System.out.println(credential.getServiceAccountId());
+		
+		try {
+			credential.refreshToken();
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+			System.out.println("@@@@@@@@@@@@@@@@");
+		}
+
+		Drive drive = new Drive.Builder(HTTP_TRANSPORT, JSON_FACTORY, credential)
+				.setApplicationName("tp3").build();
+		
+		List<File> result = new ArrayList<File>();
+		Files.List request;	
+		
+		try {
+			request = drive.files().list();
+			FileList files = request.execute();
+	        result.addAll(files.getFiles());
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		for (File file : result) {
+			System.out.println(file.getWebViewLink());
+		}
+		
+		return Response.status(200).entity(drive.about().toString()).build();
+
+	    
+
+	}
+}

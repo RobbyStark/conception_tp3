@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.ws.rs.QueryParam"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="com.dropbox.core.v1.DbxEntry"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.tp3_server.file_system.Leaf"/>
+<fullyQualifiedTypeName name="com.tp3_server.file_system.Component"/>
+<fullyQualifiedTypeName name="com.tp3_server.file_system.Composite"/>
+<fullyQualifiedTypeName name="com.google.api.client.http.javanet.NetHttpTransport"/>
+<fullyQualifiedTypeName name="com.google.api.client.json.JsonFactory"/>
+<fullyQualifiedTypeName name="com.google.api.client.json.jackson2.JacksonFactory"/>
+<fullyQualifiedTypeName name="com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeFlow"/>
+<fullyQualifiedTypeName name="com.google.api.client.googleapis.auth.oauth2.GoogleCredential"/>
+<fullyQualifiedTypeName name="com.google.api.client.auth.oauth2.TokenResponse"/>
+<fullyQualifiedTypeName name="com.google.api.client.googleapis.auth.oauth2.GoogleClientSecrets"/>
+<fullyQualifiedTypeName name="com.google.api.services.drive.Drive"/>
+<fullyQualifiedTypeName name="com.google.api.services.drive.Drive.Builder"/>
+<fullyQualifiedTypeName name="com.google.api.services.drive.model.File"/>
+<fullyQualifiedTypeName name="com.google.api.services.drive.Drive.Files.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.google.api.services.drive.model.FileList"/>
+<fullyQualifiedTypeName name="com.google.api.client.googleapis.json.GoogleJsonResponseException"/>
+</qualifiedTypeNameHistroy>

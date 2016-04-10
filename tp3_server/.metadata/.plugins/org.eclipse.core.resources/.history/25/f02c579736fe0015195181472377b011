@@ -1,0 +1,66 @@
+package com.tp3_server.rest;
+
+import com.tp3_server.file_system.*;
+
+import java.io.File;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Response;
+ 
+@Path("/")
+public class RESTfulServer {
+	@GET
+	@Path("server")
+	@Produces("text/html")
+	/*
+	 * Method that lists the files and folders contained in a root path.
+	 * Returns the file system in JSON format.
+	 */
+	public Response list(@QueryParam("root") String root)
+	{
+		try {
+			File f = new File(root);
+			if (f.exists()) {
+				// The root of the file system.
+				Component fs = new Composite(root);
+				fillFileSystem(fs);
+				
+				
+			} else {
+				
+			}
+		} catch (java.lang.NullPointerException e) {
+			String output = "<h1>BAD ROOT<h1>" + root;
+			return Response.status(200).entity(output).build();
+		}
+		
+		String output = "<h1>Hello World!<h1>" + root;
+		return Response.status(200).entity(output).build();
+	}
+	
+	/*
+	 * Method that recursively find files and directories contained 
+	 */
+	private void fillFileSystem(Component c) {
+		File f = new File(c.getPath());
+		if (f.exists()) {
+			// Iterates over all files and folders contained.
+			File[] files = f.listFiles();
+			for (File file : files) {
+				if (file.isDirectory()) {
+					// Create a new composite and call again on new composite.
+					Component composite = new Composite(file.getAbsolutePath());
+					c.addComponent(composite);
+					fillFileSystem(composite);
+				} else {
+					// Create a new leaf.
+					Component leaf = new Leaf(file.getAbsolutePath());
+					c.addComponent(leaf);
+				}
+			}
+		}
+	}
+}

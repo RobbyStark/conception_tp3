@@ -1,0 +1,11 @@
+package com.tp3_server.rest;
+
+import junit.framework.TestCase;
+
+public class tp3_server_test extends TestCase {
+	
+	public void testBlah() {
+		assertEquals(true, true);
+	}
+
+}
