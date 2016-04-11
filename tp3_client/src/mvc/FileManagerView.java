@@ -21,6 +21,7 @@ public class FileManagerView extends JFrame {
 	public JFrame frameFileManager_;
 	public JScrollPane scrollPanelFileManager_;
 	public JButton btnSelectRoot_;
+	public JButton  btnSelectDropBox_;
 	public JPanel panelCommands_;
 	public JScrollPane scrollPanelCommands_;
 	public JButton btnClear_;
@@ -34,29 +35,33 @@ public class FileManagerView extends JFrame {
 	public FileManagerView() {
 		frameFileManager_ = new JFrame();
 		frameFileManager_.setTitle("LOG8430 - TP1 - File Manager");
-		frameFileManager_.setBounds(100, 100, 550, 355);
+		frameFileManager_.setBounds(150, 150, 650, 455);
 		frameFileManager_.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frameFileManager_.getContentPane().setLayout(null);
 
 		scrollPanelFileManager_ = new JScrollPane();
-		scrollPanelFileManager_.setBounds(10, 11, 159, 239);
+		scrollPanelFileManager_.setBounds(10, 11, 259, 339);
 		frameFileManager_.getContentPane().add(scrollPanelFileManager_);
 
-		btnSelectRoot_ = new JButton("Select from ROOT");
-		btnSelectRoot_.setBounds(10, 261, 159, 40);
+		btnSelectRoot_ = new JButton("ROOT");
+		btnSelectRoot_.setBounds(10, 361, 70, 40);
 		frameFileManager_.getContentPane().add(btnSelectRoot_);
+		
+		btnSelectDropBox_ = new JButton("DROPBOX");
+		btnSelectDropBox_.setBounds(85, 361, 100, 40);
+		frameFileManager_.getContentPane().add(btnSelectDropBox_);
 
 		panelCommands_ = new JPanel(new GridBagLayout());
 		scrollPanelCommands_ = new JScrollPane(panelCommands_);
-		scrollPanelCommands_.setBounds(179, 11, 345, 239);
+		scrollPanelCommands_.setBounds(279, 11, 345, 239);
 		frameFileManager_.getContentPane().add(scrollPanelCommands_);
 
 		btnClear_ = new JButton("Clear");
-		btnClear_.setBounds(179, 261, 102, 40);
+		btnClear_.setBounds(430, 261, 102, 40);
 		frameFileManager_.getContentPane().add(btnClear_);
 
 		chckbxAutoRun_ = new JCheckBox("AutoRun");
-		chckbxAutoRun_.setBounds(447, 270, 77, 23);
+		chckbxAutoRun_.setBounds(547, 270, 77, 23);
 		frameFileManager_.getContentPane().add(chckbxAutoRun_);
 
 		fileChooser_ = new JFileChooser();
@@ -69,6 +74,14 @@ public class FileManagerView extends JFrame {
 	 */
 	public void registerUpdateRootListener(ActionListener actionListener) {
 		btnSelectRoot_.addActionListener(actionListener);
+	}
+	
+	/**
+	 * Method to register a new action listener for the select root button.
+	 * @param actionListener the event listener for the select root button
+	 */
+	public void registerUpdateDropBoxListener(ActionListener actionListener) {
+		btnSelectDropBox_.addActionListener(actionListener);
 	}
 
 	/**

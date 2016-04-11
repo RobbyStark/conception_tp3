@@ -19,7 +19,7 @@ public class RESTfulDropbox {
 	
 	private static final String TOKEN =
 			//"PUT-YOUR-DROPBOX-TOKEN-HERE";
-			"...";
+			"DVf0QlNpMHYAAAAAAAAANKef7FKfeMsFMhAmnV9ZHYGQ8DIL4IN6h5itajk86VVY";
 	
 	@GET
 	@Path("list")
