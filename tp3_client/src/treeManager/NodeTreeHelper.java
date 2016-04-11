@@ -8,6 +8,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLEncoder;
+import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.Scanner;
 
@@ -28,7 +29,7 @@ public class NodeTreeHelper {
 
 	public static void buildTree(DefaultTreeModel model){
 
-		String response = HttpRequest.GETfromRoot("C:/");
+		String response = HttpRequest.GETfromRoot(TreeSingleton.getInstance().getDefaultRoot());
 
 		Gson gson = new Gson();
 		TP3Node[] navigationArray = gson.fromJson(response, TP3Node[].class);
@@ -58,7 +59,6 @@ public class NodeTreeHelper {
 	public static void addDeepLayer(DefaultTreeModel model, String path){
 
 		String response = HttpRequest.GETfromRoot(path);
-
 		Gson gson = new Gson();
 		TP3Node[] navigationArray = gson.fromJson(response, TP3Node[].class);
 
@@ -82,8 +82,8 @@ public class NodeTreeHelper {
 
 		DefaultMutableTreeNode root = (DefaultMutableTreeNode) model.getRoot();
 
-		String [] strings = newNode.getPath().split("\\\\");
-
+		String [] strings = newNode.getPath().split(TreeSingleton.getInstance().getStringDelimiter());
+		
 		DefaultMutableTreeNode node = root;
 
 		for (String s: strings) {
@@ -130,9 +130,9 @@ public class NodeTreeHelper {
 		while (parentNode.getParent()!=null){
 			parentNode = (DefaultMutableTreeNode) parentNode.getParent();
 
-			str = parentNode.getUserObject() + "\\" + str;
+			str = parentNode.getUserObject()  + "/" + str  ;
 		}
-		str = str.replaceAll("ROOT","");
+		str = str.replaceAll(TreeSingleton.getInstance().getRootName(),"");
 		return str;		
 
 	}
@@ -150,7 +150,7 @@ public class NodeTreeHelper {
 		Gson gson = new Gson();
 		TP3Node[] node = gson.fromJson(response, TP3Node[].class);
 
-		if (node.length>0){
+		if (node.length > 0){
 			return true;
 		}
 		else 

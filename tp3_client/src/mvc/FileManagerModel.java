@@ -50,10 +50,7 @@ public class FileManagerModel {
 	 * @param node The name of the clicked node
 	 */
 	public void updateSelectedNode(DefaultMutableTreeNode node) {
-		//TP3Node mnode = (TP3Node) node.getUserObject();4
 		NodeTreeHelper.updateSelection(node);
-		System.out.println("SelectedNode: "+ node.getUserObject());
-
 
 		// Obtain the File handle for this node.
 		TP3Node fileHandle = nodeSelected_;

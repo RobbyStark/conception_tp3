@@ -89,6 +89,7 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
 import httpHelper.HttpRequest.HttpRequestException;
+import treeManager.TreeSingleton;
 
 /**
  * A fluid interface for making HTTP requests using an underlying
@@ -3260,9 +3261,10 @@ public class HttpRequest {
   }
   
   public static String GETfromRoot(String path){
+	  
 		String response = null;
 		try {
-			response = HttpRequest.get("http://localhost:8080/tp3_server/server/list/?path=" + URLEncoder.encode(path, "UTF-8"))
+			response = HttpRequest.get(TreeSingleton.getInstance().getListURL() + URLEncoder.encode(path, "UTF-8"))
 					.body();
 		} catch (HttpRequestException e) {
 			// TODO Auto-generated catch block
@@ -3277,9 +3279,10 @@ public class HttpRequest {
   }
   
   public static String GETnameFromRoot(String path){
+
 		String response = null;
 		try {
-			response = HttpRequest.get("http://localhost:8080/tp3_server/server/name/?path=" + URLEncoder.encode(path, "UTF-8"))
+			response = HttpRequest.get(TreeSingleton.getInstance().getNameURL() + URLEncoder.encode(path, "UTF-8"))
 					.body();
 		} catch (HttpRequestException e) {
 			// TODO Auto-generated catch block

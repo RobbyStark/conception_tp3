@@ -30,9 +30,9 @@ import treeManager.TreeSingleton;
  */
 public class FileManagerController {
 
-	private FileManagerView fileManagerView_;
-	private FileManagerModel fileManagerModel_;
-
+	private static FileManagerView fileManagerView_;
+	private static FileManagerModel fileManagerModel_;
+	
 	/**
 	 * Class constructor.
 	 * @param fileManagerView the associated view.
@@ -44,12 +44,13 @@ public class FileManagerController {
 
 		// Tells the view that we add the controller as an action listener for some components.
 		this.fileManagerView_.registerUpdateRootListener(new UpdateRootListener());
+		this.fileManagerView_.registerUpdateDropBoxListener(new UpdateDropBoxListener());
 		this.fileManagerView_.registerClearListener(new ClearListener());
 		this.fileManagerView_.registerAutoRunListener(new AutoRunListener());
 		this.initializeRoot();
 	}
 
-	public void initializeRoot(){
+	public static void initializeRoot(){
 
 		NodeTreeHelper converter = new NodeTreeHelper();
 		fileManagerView_.scrollPanelFileManager_.setViewportView(TreeSingleton.getInstance().getTree());
@@ -57,6 +58,7 @@ public class FileManagerController {
 		TreeSingleton.getInstance().getTree().revalidate();
 
 		TreeSingleton.getInstance().getTree().getSelectionModel().setSelectionMode(TreeSelectionModel.SINGLE_TREE_SELECTION);
+
 		TreeSingleton.getInstance().getTree().addTreeSelectionListener(new TreeSelectionListener() {
 			public void valueChanged(TreeSelectionEvent e) {
 				DefaultMutableTreeNode node = (DefaultMutableTreeNode) TreeSingleton.getInstance().getTree().getLastSelectedPathComponent();
@@ -67,7 +69,6 @@ public class FileManagerController {
 				} else {
 					Object nodeInfo = node.getUserObject();
 					TreeSingleton.getInstance().setCurrentPath(NodeTreeHelper.getAllPath(node));
-					System.out.println("Current Path: " + NodeTreeHelper.getAllPath(node));
 					fileManagerModel_.updateSelectedNode(node);
 
 				}
@@ -150,8 +151,23 @@ public class FileManagerController {
 		 * @param e the action event to be performed
 		 */
 		public void actionPerformed(ActionEvent e) {
-
+			TreeSingleton.getInstance().setLocal(true);
 			NodeTreeHelper.collapseAll(TreeSingleton.getInstance().getTree());
+		}
+	}
+	
+	/**
+	 * Action listener for the update dropbox button.
+	 */
+	class UpdateDropBoxListener implements ActionListener {
+		/**
+		 * This method performs an action event
+		 * @param e the action event to be performed
+		 */
+		public void actionPerformed(ActionEvent e) {
+			NodeTreeHelper.collapseAll(TreeSingleton.getInstance().getTree());			
+			
+			TreeSingleton.getInstance().setLocal(false);
 		}
 	}
 

@@ -76,6 +76,7 @@ public class FileManagerView extends JFrame {
 		btnSelectRoot_.addActionListener(actionListener);
 	}
 	
+	
 	/**
 	 * Method to register a new action listener for the select root button.
 	 * @param actionListener the event listener for the select root button
