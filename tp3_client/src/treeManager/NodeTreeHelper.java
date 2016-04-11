@@ -1,0 +1,178 @@
+package treeManager;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
+import java.util.Enumeration;
+import java.util.Scanner;
+
+import javax.swing.JTree;
+import javax.swing.filechooser.FileSystemView;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.TreeNode;
+import javax.swing.tree.TreePath;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import httpHelper.HttpRequest;
+import httpHelper.HttpRequest.HttpRequestException;
+public class NodeTreeHelper {
+
+
+	public static void buildTree(DefaultTreeModel model){
+
+		String response = HttpRequest.GETfromRoot("C:/");
+
+		Gson gson = new Gson();
+		TP3Node[] navigationArray = gson.fromJson(response, TP3Node[].class);
+
+		for (int i = 0 ; i< navigationArray.length ; i++){
+			buildTreeFromString(model,navigationArray[i] );			
+			addLayer(model,navigationArray[i].getPath() );
+		}
+
+	}
+
+	public static void addLayer(DefaultTreeModel model, String path){
+
+		String response = HttpRequest.GETfromRoot(path);
+
+		Gson gson = new Gson();
+		TP3Node[] navigationArray = gson.fromJson(response, TP3Node[].class);
+
+
+		if (navigationArray != null)
+			for (int j = 0 ; j< navigationArray.length ; j++){
+
+				buildTreeFromString(model,navigationArray[j] ); 			
+			}
+	}
+
+	public static void addDeepLayer(DefaultTreeModel model, String path){
+
+		String response = HttpRequest.GETfromRoot(path);
+
+		Gson gson = new Gson();
+		TP3Node[] navigationArray = gson.fromJson(response, TP3Node[].class);
+
+
+		if (navigationArray != null)
+			for (int j = 0 ; j< navigationArray.length ; j++){
+				buildTreeFromString(model,navigationArray[j] ); 	
+				addLayer(model,navigationArray[j].getPath() );
+			}
+	}
+
+
+
+	/**
+	 * Builds a tree from a given forward slash delimited string.
+	 * 
+	 * @param model The tree model
+	 * @param str The string to build the tree from
+	 */
+	private static void buildTreeFromString(final DefaultTreeModel model, final TP3Node newNode) {
+
+		DefaultMutableTreeNode root = (DefaultMutableTreeNode) model.getRoot();
+
+		String [] strings = newNode.getPath().split("\\\\");
+
+		DefaultMutableTreeNode node = root;
+
+		for (String s: strings) {
+
+			int index = childIndex(node, s);
+
+			if (index < 0) {
+				DefaultMutableTreeNode newChild = new DefaultMutableTreeNode(s);
+				node.insert(newChild, node.getChildCount());
+				node = newChild;
+			}
+			else {
+				node = (DefaultMutableTreeNode) node.getChildAt(index);
+			}
+		}
+	}
+
+	/**
+	 * Returns the index of a child of a given node, provided its string value.
+	 * 
+	 * @param node The node to search its children
+	 * @param childValue The value of the child to compare with
+	 * @return The index
+	 */
+	private static int childIndex(final DefaultMutableTreeNode node, final String childValue) {
+		Enumeration<DefaultMutableTreeNode> children = node.children();
+		DefaultMutableTreeNode child = null;
+		int index = -1;
+
+		while (children.hasMoreElements() && index < 0) {
+			child = children.nextElement();
+
+			if (child.getUserObject() != null && childValue.equals(child.getUserObject())) {
+				index = node.getIndex(child);
+			}
+		}
+
+		return index;
+	}
+
+	public static String getAllPath(DefaultMutableTreeNode node){
+		String str = (String) node.getUserObject();
+		DefaultMutableTreeNode parentNode = node;
+		while (parentNode.getParent()!=null){
+			parentNode = (DefaultMutableTreeNode) parentNode.getParent();
+
+			str = parentNode.getUserObject() + "\\" + str;
+		}
+		str = str.replaceAll("ROOT","");
+		return str;		
+
+	}
+
+	public static void updateSelection(DefaultMutableTreeNode node){
+		String str = getAllPath(node);
+		addDeepLayer(TreeSingleton.getInstance().getModel(),str);
+
+	}
+
+	public static boolean isDirectory(String path){
+
+		String response = HttpRequest.GETfromRoot(path);
+
+		Gson gson = new Gson();
+		TP3Node[] node = gson.fromJson(response, TP3Node[].class);
+
+		if (node.length>0){
+			return true;
+		}
+		else 
+			return false;
+
+	}
+
+	public static void collapseAll(JTree tree) {
+		TreeNode root = (TreeNode) tree.getModel().getRoot();
+		collapseAll(tree, new TreePath(root));
+	}
+
+	private static void collapseAll(JTree tree, TreePath parent) {
+		TreeNode node = (TreeNode) parent.getLastPathComponent();
+		if (node.getChildCount() >= 0) {
+			for (Enumeration e = node.children(); e.hasMoreElements();) {
+				TreeNode n = (TreeNode) e.nextElement();
+				TreePath path = parent.pathByAddingChild(n);
+				collapseAll(tree, path);
+			}
+		}
+		tree.collapsePath(parent);
+	}
+
+}
