@@ -74,7 +74,7 @@ public class FileManagerModel {
 
 			nodeSelected_ = null;
 
-			if (((NodeTreeHelper.isDirectory(path)) && (supportFolder)) ||((!NodeTreeHelper.isDirectory(path)) && (supportFile))) 
+			if (((NodeTreeHelper.hasChildren(path)) && (supportFolder)) ||((!NodeTreeHelper.hasChildren(path)) && (supportFile))) 
 			{
 				button.setEnabled(true);
 

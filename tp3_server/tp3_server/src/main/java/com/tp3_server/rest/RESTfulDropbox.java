@@ -24,7 +24,7 @@ public class RESTfulDropbox {
 	@GET
 	@Path("list")
 	@Produces("text/html")
-	/*
+	/**
 	 * Method that lists the files and folders contained in the path.
 	 */
 	public Response list(@QueryParam("path") String path)
@@ -55,7 +55,7 @@ public class RESTfulDropbox {
 	@GET
 	@Path("name")
 	@Produces("text/html")
-	/*
+	/**
 	 * Method that returns the name of the file or folder specified.
 	 */
 	public Response name(@QueryParam("path") String path)
@@ -75,7 +75,7 @@ public class RESTfulDropbox {
 	@GET
 	@Path("absolutePath")
 	@Produces("text/html")
-	/*
+	/**
 	 * Method that returns the absolutePath of the file or folder specified.
 	 */
 	public Response absolutePath(@QueryParam("path") String path)
@@ -92,7 +92,7 @@ public class RESTfulDropbox {
 		return Response.status(200).entity(name).build();
 	}
 	
-	/*
+	/**
 	 * Method to authenticate the user on Dropbox.
 	 */
 	private DbxClientV1 authentication() {
@@ -101,7 +101,7 @@ public class RESTfulDropbox {
         return new DbxClientV1(config, TOKEN);
 	}
 	
-	/*
+	/**
 	 * Class that defines either a file or directory.
 	 */
 	private class Node {

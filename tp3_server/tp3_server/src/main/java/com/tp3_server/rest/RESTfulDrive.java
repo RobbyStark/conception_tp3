@@ -26,8 +26,8 @@ import com.google.gson.Gson;
  
 @Path("/drive")
 public class RESTfulDrive {
-	
-	// Objects for handling HTTP transport and JSON formatting of API calls
+	/**
+	// Objects for handling HTTP transport and JSON formatting of API calls*/
 	private static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
 	private static final JsonFactory JSON_FACTORY = new JacksonFactory();
 	
@@ -40,7 +40,7 @@ public class RESTfulDrive {
 	@GET
 	@Path("list")
 	@Produces("text/html")
-	/*
+	/**
 	 * Method that lists the files and folders contained in Drive.
 	 * Returns the file system in JSON format.
 	 */
@@ -55,8 +55,8 @@ public class RESTfulDrive {
 					"' in parents and trashed = false").execute();
 			List<File> result = new ArrayList<File>();
 			result.addAll(files.getFiles());
-			
-			// Iterates over all files and folders contained.
+			/**
+			// Iterates over all files and folders contained.*/
 			for (File file : result) {
 				nodes.add(new Node(
 						file.getName(),
@@ -66,8 +66,10 @@ public class RESTfulDrive {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+		/*
 		// Convert object to JSON.
+		 * */
+		 
 		Gson gson = new Gson();
 		String json = gson.toJson(nodes);
 		return Response.status(200).entity(json).build();
@@ -76,7 +78,7 @@ public class RESTfulDrive {
 	@GET
 	@Path("name")
 	@Produces("text/html")
-	/*
+	/**
 	 * Method that returns the name of the file or folder specified.
 	 */
 	public Response name(@QueryParam("id") String id)
@@ -96,7 +98,7 @@ public class RESTfulDrive {
 	@GET
 	@Path("absolutePath")
 	@Produces("text/html")
-	/*
+	/**
 	 * Method that returns the absolutePath of the file or folder specified.
 	 */
 	public Response absolutePath(@QueryParam("id") String id)
@@ -113,7 +115,7 @@ public class RESTfulDrive {
 		return Response.status(200).entity(name).build();
 	}
 	
-	/*
+	/**
 	 * Method to authenticate the user on Drive.
 	 */
 	private Drive authentication() throws IOException {
@@ -128,7 +130,7 @@ public class RESTfulDrive {
 				.setApplicationName("tp3").build();
 	}
 	
-	/*
+	/**
 	 * Class that defines either a file or directory.
 	 */
 	private class Node {

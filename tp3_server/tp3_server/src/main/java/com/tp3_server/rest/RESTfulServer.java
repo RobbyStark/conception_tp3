@@ -17,7 +17,7 @@ public class RESTfulServer {
 	@GET
 	@Path("list")
 	@Produces("text/html")
-	/*
+	/**
 	 * Method that lists the files and folders contained in the path.
 	 */
 	public Response list(@QueryParam("path") String path)
@@ -46,7 +46,7 @@ public class RESTfulServer {
 	@GET
 	@Path("name")
 	@Produces("text/html")
-	/*
+	/**
 	 * Method that returns the name of the file or folder specified.
 	 */
 	public Response name(@QueryParam("path") String path)
@@ -58,7 +58,7 @@ public class RESTfulServer {
 	@GET
 	@Path("absolutePath")
 	@Produces("text/html")
-	/*
+	/**
 	 * Method that returns the absolutePath of the file or folder specified.
 	 */
 	public Response absolutePath(@QueryParam("path") String path)
@@ -67,7 +67,7 @@ public class RESTfulServer {
 		return Response.status(200).entity(f.getAbsolutePath()).build();
 	}
 	
-	/*
+	/**
 	 * Class that defines either a file or directory.
 	 */
 	private class Node {

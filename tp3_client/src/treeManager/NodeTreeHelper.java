@@ -27,6 +27,10 @@ import httpHelper.HttpRequest.HttpRequestException;
 public class NodeTreeHelper {
 
 
+	/**
+	 * builds a tree given the singleton's model
+	 * @param model The model to build in
+	 */
 	public static void buildTree(DefaultTreeModel model){
 
 		String response = HttpRequest.GETfromRoot(TreeSingleton.getInstance().getDefaultRoot());
@@ -42,6 +46,10 @@ public class NodeTreeHelper {
 
 	}
 
+	/**
+	 * adds a layer of folders to a tree
+	 * @param model The model to build in
+	 */
 	public static void addFolders(DefaultTreeModel model, String path){
 
 		String response = HttpRequest.GETfromRoot(path);
@@ -54,6 +62,10 @@ public class NodeTreeHelper {
 			}
 	}
 
+	/**
+	 * adds a layer of childs to a tree
+	 * @param model The model to build in
+	 */
 	public static void addChilds(DefaultTreeModel model, String path){
 
 		String response = HttpRequest.GETfromRoot(path);
@@ -121,6 +133,12 @@ public class NodeTreeHelper {
 		return index;
 	}
 
+	/**
+	 * Returns the path of a given node
+	 * 
+	 * @param node The node to search its children
+	 * @return The path
+	 */
 	public static String getAllPath(DefaultMutableTreeNode node){
 		String str = (String) node.getUserObject();
 		DefaultMutableTreeNode parentNode = node;
@@ -140,7 +158,11 @@ public class NodeTreeHelper {
 
 	}
 
-	public static boolean isDirectory(String path){
+	/**
+	 * finds wether or not a given node has children
+	 * @param path The path of the node
+	 */
+	public static boolean hasChildren(String path){
 
 		String response = HttpRequest.GETfromRoot(path);
 
@@ -155,6 +177,10 @@ public class NodeTreeHelper {
 
 	}
 
+	/**
+	 * Collapses an entire JTree 
+	 * @param tree The tree to search its children
+	 */
 	public static void collapseAll(JTree tree) {
 		TreeNode root = (TreeNode) tree.getModel().getRoot();
 		collapseAll(tree, new TreePath(root));

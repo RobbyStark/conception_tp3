@@ -6,6 +6,10 @@ import javax.swing.tree.DefaultTreeModel;
 import mvc.FileManagerController;
 import mvc.FileManagerView;
 
+
+/**
+* This Singleton holds the JTreee and its properties
+*/
 public class TreeSingleton {
 
 	private static TreeSingleton instance = null;
@@ -25,6 +29,10 @@ public class TreeSingleton {
 		// Exists only to defeat instantiation.
 	}
 	
+	/**
+	 * Method to get the singletons unique instance
+	 * @return the unique instance
+	 */	
 	public static TreeSingleton getInstance() {
 		if(instance == null) {
 			instance = new TreeSingleton();				
@@ -34,6 +42,10 @@ public class TreeSingleton {
 		return instance;
 	}
 
+	/**
+	 * Method to get the selected path
+	 * @return the current path
+	 */	
 	public String getCurrentPath( ) {
 		return currentPath; 
 	}
@@ -70,7 +82,11 @@ public class TreeSingleton {
 		if (currentPath.equals(""))
 			currentPath = defaultRoot;
 	}
-	
+
+	/**
+	 * Method to set whether or not the JTree is displaying local files
+	 * @param islocal if the tree is local
+	 */	
 	public static void setLocal(boolean islocal){
 		
 		if (islocal){
