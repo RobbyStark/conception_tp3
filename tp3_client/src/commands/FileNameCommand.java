@@ -14,10 +14,8 @@ import httpHelper.HttpRequest.HttpRequestException;
 public class FileNameCommand implements ICommand {
 	
 	@Override
-	public String run(String file) {
-		
-		String response = HttpRequest.GETnameFromRoot(file);
-		
+	public String run(String file) {		
+		String response = HttpRequest.GETnameFromRoot(file);		
 		return response;
 	}
 

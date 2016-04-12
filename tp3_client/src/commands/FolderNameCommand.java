@@ -16,8 +16,7 @@ public class FolderNameCommand implements ICommand {
 
 	@Override
 	public String run(String file) {
-		String response = HttpRequest.GETnameFromRoot(file);
-		
+		String response = HttpRequest.GETnameFromRoot(file);		
 		return response;
 	}
 

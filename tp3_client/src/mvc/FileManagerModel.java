@@ -14,7 +14,7 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import classLoader.JavaClassLoader;
 import composite.Node;
 import treeManager.NodeTreeHelper;
-import treeManager.TP3Node;
+import treeManager.ClientNode;
 import treeManager.TreeSingleton;
 /**
  * The main Model class. following MVC design, this class
@@ -26,14 +26,14 @@ public class FileManagerModel {
 	private Map<String, Component> buttonComponentMap_ = new HashMap<String, Component>();
 	private Map<String, Component> textFieldComponentMap_ = new HashMap<String, Component>();
 
-	private TP3Node nodeSelected_;
+	private ClientNode nodeSelected_;
 	private boolean autoRun_ = false;
 
 	/**
 	 * Sets the selected node
 	 * @param node the selected node
 	 */
-	public void setNodeSelected(TP3Node node) {
+	public void setNodeSelected(ClientNode node) {
 		nodeSelected_ = node;
 	}
 
@@ -53,7 +53,7 @@ public class FileManagerModel {
 		NodeTreeHelper.updateSelection(node);
 
 		// Obtain the File handle for this node.
-		TP3Node fileHandle = nodeSelected_;
+		ClientNode fileHandle = nodeSelected_;
 
 		// For each class, use the class loader to determine if the class supports folders and/or files.
 		JavaClassLoader javaClassLoader = new JavaClassLoader();

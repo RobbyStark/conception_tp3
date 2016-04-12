@@ -32,41 +32,38 @@ public class NodeTreeHelper {
 		String response = HttpRequest.GETfromRoot(TreeSingleton.getInstance().getDefaultRoot());
 
 		Gson gson = new Gson();
-		TP3Node[] navigationArray = gson.fromJson(response, TP3Node[].class);
+		ClientNode[] navigationArray = gson.fromJson(response, ClientNode[].class);
 
+		if(navigationArray!=null)
 		for (int i = 0 ; i< navigationArray.length ; i++){
 			buildTreeFromString(model,navigationArray[i] );			
-			addLayer(model,navigationArray[i].getPath() );
+			addFolders(model,navigationArray[i].getPath() );
 		}
 
 	}
 
-	public static void addLayer(DefaultTreeModel model, String path){
+	public static void addFolders(DefaultTreeModel model, String path){
 
 		String response = HttpRequest.GETfromRoot(path);
-
 		Gson gson = new Gson();
-		TP3Node[] navigationArray = gson.fromJson(response, TP3Node[].class);
-
+		ClientNode[] navigationArray = gson.fromJson(response, ClientNode[].class);
 
 		if (navigationArray != null)
 			for (int j = 0 ; j< navigationArray.length ; j++){
-
 				buildTreeFromString(model,navigationArray[j] ); 			
 			}
 	}
 
-	public static void addDeepLayer(DefaultTreeModel model, String path){
+	public static void addChilds(DefaultTreeModel model, String path){
 
 		String response = HttpRequest.GETfromRoot(path);
 		Gson gson = new Gson();
-		TP3Node[] navigationArray = gson.fromJson(response, TP3Node[].class);
-
+		ClientNode[] navigationArray = gson.fromJson(response, ClientNode[].class);
 
 		if (navigationArray != null)
 			for (int j = 0 ; j< navigationArray.length ; j++){
 				buildTreeFromString(model,navigationArray[j] ); 	
-				addLayer(model,navigationArray[j].getPath() );
+				addFolders(model,navigationArray[j].getPath() );
 			}
 	}
 
@@ -78,7 +75,7 @@ public class NodeTreeHelper {
 	 * @param model The tree model
 	 * @param str The string to build the tree from
 	 */
-	private static void buildTreeFromString(final DefaultTreeModel model, final TP3Node newNode) {
+	private static void buildTreeFromString(final DefaultTreeModel model, final ClientNode newNode) {
 
 		DefaultMutableTreeNode root = (DefaultMutableTreeNode) model.getRoot();
 
@@ -139,7 +136,7 @@ public class NodeTreeHelper {
 
 	public static void updateSelection(DefaultMutableTreeNode node){
 		String str = getAllPath(node);
-		addDeepLayer(TreeSingleton.getInstance().getModel(),str);
+		addChilds(TreeSingleton.getInstance().getModel(),str);
 
 	}
 
@@ -148,7 +145,7 @@ public class NodeTreeHelper {
 		String response = HttpRequest.GETfromRoot(path);
 
 		Gson gson = new Gson();
-		TP3Node[] node = gson.fromJson(response, TP3Node[].class);
+		ClientNode[] node = gson.fromJson(response, ClientNode[].class);
 
 		if (node.length > 0){
 			return true;
